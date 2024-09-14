@@ -5,10 +5,10 @@ class duplicate
         int f=0;
         int n = x.length;
 
-        for(int i=0; i<=n; i++)
+        for(int i=0; i<n; i++)
         {
             f=0;
-            for(int j=i+1; j<=n; j++)
+            for(int j=i+1; j<n; j++)
             {
                 if(x[i]==x[j])
                 {

@@ -20,6 +20,3 @@ int n=sizeof(arr)/sizeof(arr[0]);
 printf("Index of a peak point is %d", findPeak(arr,n));
 return 0; 
 }
-/*Time Complexity:O(log N)where N=n.o of elements in the input array.
-  Auxiliary Space:O(log N).
-*/

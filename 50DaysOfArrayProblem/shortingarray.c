@@ -2,13 +2,13 @@
  int main()
  {
 
-	int i,j,temp,size, nthlargest,k,smallest,p;
-	int arr[6]={4,1,3,6,8,5};
-	//  size=sizeof(arr)/sizeof(arr[0]);
+  int i,j,temp,size, nthlargest,k,smallest,p;
+  int arr[6]={4,1,3,6,8,5};
+//  size=sizeof(arr)/sizeof(arr[0]);
 	printf("Unsorted array is: ");
 	for(i=0;i<6;i++)
 
-{
+	{
 	printf("%d \t",arr[i]);
 
 }
